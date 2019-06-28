@@ -7,7 +7,7 @@ app=Flask(__name__)
  
 @app.route('/')
 def index():
-	return '<h1>Learning Flask</h1>'
+	return '<h1>Learning python</h1>'
  
 @app.route('/user/<name>')
 def user(name):
